@@ -1,0 +1,712 @@
+/* -----------------------------------------
+   2. MEDIA QUERIES
+----------------------------------------- */
+
+/* Mobile */
+		@media handheld, only screen and (max-width: 767px) {
+		body {
+			font-size: 16px;
+			-webkit-text-size-adjust: none;
+		}
+
+    a.button-slide{
+      position:relative;
+      border: 2px solid white;
+      color:#f5f5f5;
+      background-color:#ccc;
+      font-family: 'AzoSans-Light';
+      font-weight:300;
+      font-size:1.0em;
+      height:5rem;
+      line-height:5rem;
+      width:22rem;
+      overflow:hidden;
+      -webkit-transition:0.3s;
+      transition:0.3s;
+      margin-top: 100px;
+
+    }
+
+  	.hero-image-parent {
+    	width: 257px;
+    	height: 248px;
+		}
+
+		.row, body, .container {
+			width: 100%;
+			min-width: 0;
+			margin-right: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+
+
+	/* ----------- IPad mini ----------- */
+	@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		body {
+			font-size: 16px;
+			-webkit-text-size-adjust: none;
+		}
+
+    a.button-slide{
+      position:relative;
+      border: 2px solid white;
+      color:#f5f5f5;
+      background-color:#ccc;
+      font-family: 'AzoSans-Light';
+      font-weight:300;
+      font-size:1.0em;
+      height:5rem;
+      line-height:5rem;
+      width:22rem;
+      overflow:hidden;
+      -webkit-transition:0.3s;
+      transition:0.3s;
+      margin-top: 100px;
+
+    }
+
+  	.hero-image-parent {
+    	width: 257px;
+    	height: 248px;
+		}
+
+		.row, body, .container {
+			width: 100%;
+			min-width: 0;
+			margin-right: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		#about {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 1050px;
+	      min-height: 1500px;
+	      z-index: 2;
+	  }
+
+	  #work {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 2550px;
+	      min-height: 1155px;
+	      z-index: 2;
+	  }
+
+	  #contact {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 3705px;
+	      min-height: 715px;
+	      z-index: 2;
+	  }
+
+	}
+
+	/* ----------- iPhone 5 and 5S ----------- */
+	@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		body {
+			font-size: 16px;
+			-webkit-text-size-adjust: none;
+		}
+
+		.hero-image-parent {
+    position: relative;
+    height: 139%;
+    width: 53%;
+    margin: 50px auto 25px;
+    margin-top: -365px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 1px dashed #DDD;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: dashed;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: dashed;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+		}
+
+    a.button-slide{
+      position:relative;
+      border: 2px solid white;
+      color:#f5f5f5;
+      background-color:#ccc;
+      font-family: 'AzoSans-Light';
+      font-weight:300;
+      font-size:1.0em;
+      height:5rem;
+      line-height:5rem;
+      width:22rem;
+      overflow:hidden;
+      -webkit-transition:0.3s;
+      transition:0.3s;
+      margin-top: 100px;
+
+    }
+
+  	.hero-image-parent {
+    	width: 257px;
+    	height: 248px;
+		}
+
+		.row, body, .container {
+			width: 100%;
+			min-width: 0;
+			margin-right: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		#about {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 870px;
+	      min-height: 2200px;
+	      z-index: 2;
+	  }
+
+	  #work {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 3070px;
+	      min-height: 1155px;
+	      z-index: 2;
+	  }
+
+	  #contact {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 4958px;
+	      min-height: 800px;
+	      z-index: 2;
+	  }
+
+		.portfolio.col-3 .portfolio-item {
+    width: 91%;
+		}
+
+		h5.img-1 {
+			margin-left: -28px;
+		}
+
+		.about--info-item h4 {
+    margin: 0 0 8px;
+    line-height: 32px;
+    font-family: 'Montserrat', Georgia, serif;
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    color: rgba(102, 102, 102, 0.93);
+    letter-spacing: 2px;
+    font-size: 15px;
+		}
+
+		.about--info-item p {
+    margin: 0 auto 8px;
+    font-size: 62%;
+    font-family: 'Montserrat', Georgia, serif;
+    line-height: 26px;
+    color: #000;
+    font-weight: 100;
+    font-style: normal;
+		}
+
+		.contact--address address p {
+    margin-bottom: 30px;
+		margin-left: -26px;
+    line-height: 32px;
+    font-family: 'Montserrat', Georgia, serif;
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    color: rgba(102, 102, 102, 0.93);
+    letter-spacing: 1px;
+    font-size: 13px;
+		}
+	}
+
+	/* ----------- iPhone 6 ----------- */
+	@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		body {
+			font-size: 16px;
+			-webkit-text-size-adjust: none;
+		}
+
+		.hero-image-parent {
+    position: relative;
+    height: 139%;
+    width: 53%;
+    margin: 50px auto 25px;
+    margin-top: -343px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 1px dashed #DDD;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: dashed;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: dashed;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+		}
+
+    a.button-slide{
+      position:relative;
+      border: 2px solid white;
+      color:#f5f5f5;
+      background-color:#ccc;
+      font-family: 'AzoSans-Light';
+      font-weight:300;
+      font-size:1.0em;
+      height:5rem;
+      line-height:5rem;
+      width:22rem;
+      overflow:hidden;
+      -webkit-transition:0.3s;
+      transition:0.3s;
+      margin-top: 100px;
+
+    }
+
+  	.hero-image-parent {
+    	width: 257px;
+    	height: 248px;
+		}
+
+		.row, body, .container {
+			width: 100%;
+			min-width: 0;
+			margin-right: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		#about {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 870px;
+	      min-height: 2100px;
+	      z-index: 2;
+	  }
+
+	  #work {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 2970px;
+	      min-height: 1155px;
+	      z-index: 2;
+	  }
+
+	  #contact {
+	      position: absolute;
+	      background-color: rgba(228, 228, 228, 0.28);
+	      width: 96%;
+	      margin-left: 2%;
+	      margin-top: 5139px;
+	      min-height: 800px;
+	      z-index: 2;
+	  }
+
+		.portfolio.col-3 .portfolio-item {
+    width: 91%;
+		}
+
+		h5.img-1 {
+			margin-left: -15px;
+		}
+
+		.about--info-item h4 {
+    margin: 0 0 8px;
+    line-height: 32px;
+    font-family: 'Montserrat', Georgia, serif;
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    color: rgba(102, 102, 102, 0.93);
+    letter-spacing: 2px;
+    font-size: 15px;
+		}
+
+		.about--info-item p {
+    margin: 0 auto 8px;
+    font-size: 83%;
+    font-family: 'Montserrat', Georgia, serif;
+    line-height: 26px;
+    color: #000;
+    font-weight: 100;
+    font-style: normal;
+		}
+
+		.contact--address address p {
+    margin-bottom: 30px;
+		margin-left: -0px;
+    line-height: 32px;
+    font-family: 'Montserrat', Georgia, serif;
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    color: rgba(102, 102, 102, 0.93);
+    letter-spacing: 1px;
+    font-size: 13px;
+		}
+	}
+
+	/* ----------- iPhone 6 Plus----------- */
+	@media only screen
+	  and (min-device-width: 414px)
+	  and (max-device-width: 736px)
+		  and (-webkit-min-device-pixel-ratio: 3) {
+			body {
+				font-size: 16px;
+				-webkit-text-size-adjust: none;
+			}
+
+			.hero-image-parent {
+	    position: relative;
+	    height: 139%;
+	    width: 53%;
+	    margin: 50px auto 25px;
+	    margin-top: -343px;
+	    margin-right: auto;
+	    margin-bottom: 25px;
+	    margin-left: auto;
+	    border-radius: 50%;
+	    border-top-left-radius: 50%;
+	    border-top-right-radius: 50%;
+	    border-bottom-right-radius: 50%;
+	    border-bottom-left-radius: 50%;
+	    border: 1px dashed #DDD;
+	    border-top-color: rgb(221, 221, 221);
+	    border-top-style: dashed;
+	    border-top-width: 1px;
+	    border-right-color: rgb(221, 221, 221);
+	    border-right-style: dashed;
+	    border-right-width: 1px;
+	    border-bottom-color: rgb(221, 221, 221);
+	    border-bottom-style: dashed;
+	    border-bottom-width: 1px;
+	    border-left-color: rgb(221, 221, 221);
+	    border-left-style: dashed;
+	    border-left-width: 1px;
+	    border-image-source: initial;
+	    border-image-slice: initial;
+	    border-image-width: initial;
+	    border-image-outset: initial;
+	    border-image-repeat: initial;
+			}
+
+	    a.button-slide{
+	      position:relative;
+	      border: 2px solid white;
+	      color:#f5f5f5;
+	      background-color:#ccc;
+	      font-family: 'AzoSans-Light';
+	      font-weight:300;
+	      font-size:1.0em;
+	      height:5rem;
+	      line-height:5rem;
+	      width:22rem;
+	      overflow:hidden;
+	      -webkit-transition:0.3s;
+	      transition:0.3s;
+	      margin-top: 100px;
+
+	    }
+
+	  	.hero-image-parent {
+	    	width: 257px;
+	    	height: 248px;
+			}
+
+			.row, body, .container {
+				width: 100%;
+				min-width: 0;
+				margin-right: 0px;
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+
+			#about {
+		      position: absolute;
+		      background-color: rgba(228, 228, 228, 0.28);
+		      width: 96%;
+		      margin-left: 2%;
+		      margin-top: 870px;
+		      min-height: 2000px;
+		      z-index: 2;
+		  }
+
+		  #work {
+		      position: absolute;
+		      background-color: rgba(228, 228, 228, 0.28);
+		      width: 96%;
+		      margin-left: 2%;
+		      margin-top: 2870px;
+		      min-height: 1155px;
+		      z-index: 2;
+		  }
+
+		  #contact {
+		      position: absolute;
+		      background-color: rgba(228, 228, 228, 0.28);
+		      width: 96%;
+		      margin-left: 2%;
+		      margin-top: 5239px;
+		      min-height: 800px;
+		      z-index: 2;
+		  }
+
+			.portfolio.col-3 .portfolio-item {
+	    width: 91%;
+			}
+
+			h5.img-1 {
+				margin-left: -10px;
+			}
+
+			.about--info-item h4 {
+	    margin: 0 0 8px;
+	    line-height: 32px;
+	    font-family: 'Montserrat', Georgia, serif;
+	    font-style: normal;
+	    font-weight: 100;
+	    text-rendering: optimizeLegibility;
+	    color: rgba(102, 102, 102, 0.93);
+	    letter-spacing: 2px;
+	    font-size: 15px;
+			}
+
+			.about--info-item p {
+	    margin: 0 auto 8px;
+	    font-size: 83%;
+	    font-family: 'Montserrat', Georgia, serif;
+	    line-height: 26px;
+	    color: #000;
+	    font-weight: 100;
+	    font-style: normal;
+			}
+
+			.contact--address address p {
+	    margin-bottom: 30px;
+			margin-left: -0px;
+	    line-height: 32px;
+	    font-family: 'Montserrat', Georgia, serif;
+	    font-style: normal;
+	    font-weight: 100;
+	    text-rendering: optimizeLegibility;
+	    color: rgba(102, 102, 102, 0.93);
+	    letter-spacing: 1px;
+	    font-size: 13px;
+			}
+	}
+
+	/* ----------- Galaxy S5 ----------- */
+	@media screen
+	  and (device-width: 360px)
+	  and (device-height: 640px)
+	  and (-webkit-device-pixel-ratio: 3) {
+			body {
+				font-size: 16px;
+				-webkit-text-size-adjust: none;
+			}
+
+			.hero-image-parent {
+			position: relative;
+			height: 139%;
+			width: 53%;
+			margin: 50px auto 25px;
+			margin-top: -343px;
+			margin-right: auto;
+			margin-bottom: 25px;
+			margin-left: auto;
+			border-radius: 50%;
+			border-top-left-radius: 50%;
+			border-top-right-radius: 50%;
+			border-bottom-right-radius: 50%;
+			border-bottom-left-radius: 50%;
+			border: 1px dashed #DDD;
+			border-top-color: rgb(221, 221, 221);
+			border-top-style: dashed;
+			border-top-width: 1px;
+			border-right-color: rgb(221, 221, 221);
+			border-right-style: dashed;
+			border-right-width: 1px;
+			border-bottom-color: rgb(221, 221, 221);
+			border-bottom-style: dashed;
+			border-bottom-width: 1px;
+			border-left-color: rgb(221, 221, 221);
+			border-left-style: dashed;
+			border-left-width: 1px;
+			border-image-source: initial;
+			border-image-slice: initial;
+			border-image-width: initial;
+			border-image-outset: initial;
+			border-image-repeat: initial;
+			}
+
+			a.button-slide{
+				position:relative;
+				border: 2px solid white;
+				color:#f5f5f5;
+				background-color:#ccc;
+				font-family: 'AzoSans-Light';
+				font-weight:300;
+				font-size:1.0em;
+				height:5rem;
+				line-height:5rem;
+				width:22rem;
+				overflow:hidden;
+				-webkit-transition:0.3s;
+				transition:0.3s;
+				margin-top: 100px;
+
+			}
+
+			.hero-image-parent {
+				width: 257px;
+				height: 248px;
+			}
+
+			.row, body, .container {
+				width: 100%;
+				min-width: 0;
+				margin-right: 0px;
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+
+			#about {
+					position: absolute;
+					background-color: rgba(228, 228, 228, 0.28);
+					width: 96%;
+					margin-left: 2%;
+					margin-top: 870px;
+					min-height: 2431px;
+					z-index: 2;
+			}
+
+			#work {
+					position: absolute;
+					background-color: rgba(228, 228, 228, 0.28);
+					width: 96%;
+					margin-left: 2%;
+					margin-top: 3301px;
+					min-height: 2369px;
+					z-index: 2;
+			}
+
+			#contact {
+					position: absolute;
+					background-color: rgba(228, 228, 228, 0.28);
+					width: 96%;
+					margin-left: 2%;
+					margin-top: 5670px;
+					min-height: 800px;
+					z-index: 2;
+			}
+
+			.portfolio.col-3 .portfolio-item {
+			width: 91%;
+			}
+
+			h5.img-1 {
+				margin-left: -10px;
+			}
+
+			.about--info-item h4 {
+			margin: 0 0 8px;
+			line-height: 32px;
+			font-family: 'Montserrat', Georgia, serif;
+			font-style: normal;
+			font-weight: 100;
+			text-rendering: optimizeLegibility;
+			color: rgba(102, 102, 102, 0.93);
+			letter-spacing: 2px;
+			font-size: 15px;
+			}
+
+			.about--info-item p {
+			margin: 0 auto 8px;
+			font-size: 78%%;
+			font-family: 'Montserrat', Georgia, serif;
+			line-height: 26px;
+			color: #000;
+			font-weight: 100;
+			font-style: normal;
+			}
+
+			.contact--address address p {
+			margin-bottom: 30px;
+			margin-left: -0px;
+			line-height: 32px;
+			font-family: 'Montserrat', Georgia, serif;
+			font-style: normal;
+			font-weight: 100;
+			text-rendering: optimizeLegibility;
+			color: rgba(102, 102, 102, 0.93);
+			letter-spacing: 1px;
+			font-size: 13px;
+			}
+	}
