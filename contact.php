@@ -12,7 +12,7 @@ $email_subject = "Website Contact Form:  $name";
 $email_body .= "\n";
 $email_body .= "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
 $email_body .= "\n";
-$headers = "From: notification@amadc2207.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: notification@amad-c.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 file_put_contents('email.txt', $email_body, FILE_APPEND | LOCK_EX);
