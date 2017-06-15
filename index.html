@@ -378,22 +378,24 @@
             <div class="row-1">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" name="contactName" class="form-control" placeholder="Name">
+                  <input type="text" name="contactName" class="form-control" id="name" required placeholder="Name">
                 </div>
               </div>
 
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="email" name="contactEmail" class="form-control" placeholder="Email">
+                  <input type="email" name="contactEmail" class="form-control" required id="email"placeholder="Email">
                 </div>
               </div>
             </div>
 
               <div class="form-group">
-                <textarea name="contactMessage" class="form-control" rows="9" placeholder="Message"></textarea>
+                <textarea name="contactMessage" class="form-control" rows="9" required id="message" placeholder="Message"></textarea>
               </div>
                 <input type="submit" value="SEND" class="submit-btn btn--primary">
           </form>
+          <div id="success">
+          </div>
         </div>
       </div>
     </div>
@@ -415,6 +417,8 @@
         <script src="js/lib/stats.js"></script>
         <script src="js/particles.js"></script>
         <script src="js/app.js"></script>
+        <script src="js/validations.js"></script>
+        <script src="js/val.js"></script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
